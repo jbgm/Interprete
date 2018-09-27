@@ -10,6 +10,13 @@ namespace MathInterpreter
     {
         static void Main(string[] args)
         {
+            var finalizar = false;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Ingrese una expreción matemática.");
+                var exprecion = Console.ReadLine();
+            } while (!finalizar);
         }
     }
 }

@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenerickTree\Node.cs" />
+    <Compile Include="GenerickTree\Tree.cs" />
+    <Compile Include="GenerickTree\TreeNode.cs" />
+    <Compile Include="LexicalAnalysis.cs" />
+    <Compile Include="MathInterpreter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
